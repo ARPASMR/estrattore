@@ -19,4 +19,4 @@ AND IDrete in (1,4)
 AND Acronimo="XX" 
 ORDER BY Provincia;
 
-Copiare nella directory dove risiedoni i dati dell'estrattore, oltre al file di richiesta, anche il file "AnagraficaSensori.csv" generato ogni giorno nelle cartella di rete \\ ... \ARPA\ ... \Sede Centrale\PROGETTI\REM\Anagrafica
+Copiare nella directory dove risiedono i dati dell'estrattore, oltre al file di richiesta, anche il file "AnagraficaSensori.csv" generato ogni giorno nelle cartella di rete \\ ... \ARPA\ ... \Sede Centrale\PROGETTI\REM\Anagrafica
