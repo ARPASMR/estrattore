@@ -22,7 +22,7 @@ richiesta<- read.csv ( file_ric , header = FALSE, as.is = TRUE, sep="\t")
 IDsensore<-richiesta$V2
 
 # lettura dell'anagrafica REM per dare un nome ai sensori
-anagrafica <- read.csv ( "file:///Y:/AnagraficaSensori.csv" , header = TRUE ,  quote="\"", as.is = TRUE, sep=";", na.strings = "-9999")
+anagrafica <- read.csv ( "AnagraficaSensori.csv" , header = TRUE ,  quote="\"", as.is = TRUE, sep=";", na.strings = "-9999")
 
 # colori per min-avg-max)
 colore=c("green","black","red")
@@ -41,7 +41,7 @@ for (i in 1:length(IDsensore)){
   
 #########################################################################################
   
-## modalità interattiva
+## modalitÃ  interattiva
   if (interattivo==1){
    par(ask = TRUE)
   }else if(interattivo==0){
